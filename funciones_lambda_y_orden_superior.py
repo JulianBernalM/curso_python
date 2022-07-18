@@ -1,3 +1,4 @@
+from functools import reduce
 # Lambda son funciones anónimas ya que no tienen identificador o nombre.
 # Aqui un ejemplo basico con un programa que nos dice si una palabra es palindromo.
 
@@ -37,9 +38,6 @@
 # 2. map()
 # En el siguiente ejemplo quiero conocer los numeros de la lista my_list pero elevados al 
 # cuadrado
-
-from functools import reduce
-
 
 # my_list = [1,9,4,7,3,6,10]
 

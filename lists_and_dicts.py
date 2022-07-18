@@ -24,7 +24,7 @@ def run():
         'floating_nums': [1.1, 3.5, 8.6]
     }
 
-    #Para imprimir el diccinario con sus litas:
+    #Para imprimir el diccinario con sus listas:
     # for key, value in super_dict.items():
     #     print (key, '-', value)
 
