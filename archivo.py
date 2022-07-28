@@ -3,12 +3,11 @@
 # encoding='utf-8' Nos asegura de que no existan caracteres extraños
  
 def read():
-    numbers = []
-
     with open('./archivos/numbers.txt', 'r', encoding='utf-8') as f:
-        for line in f:
-            numbers.append(int(line))#Convertimos la cadena a entero
+        numbers = [int(line) for line in f]
+
     print(numbers)
+
 
 # Crea un archivo que contenga en cada linea
 # la lista de nombres
@@ -18,7 +17,7 @@ def read():
  
 def write():
     names = ['Julian', 'Adriana', 'Daniela', 'Andrea', 
-    'Rocío', 'Birman', 'Rosemberg', 'Catalina']
+    'Rocío', 'Birman', 'Rosemberg', 'Catalina', 'Mario']
     
     with open('./archivos/names.txt', 'w', encoding='utf-8') as f:
         for name in names:
